@@ -33,7 +33,7 @@ export default function Register({
     // console.log(data);
     // console.log(error);
     if (data) {
-      navigation.navigate('Home');
+      navigation.navigate('Main', {screen: 'Home'});
     }
     if (error) {
       setErrorMessage(error.data.message);

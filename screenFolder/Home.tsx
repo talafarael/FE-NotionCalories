@@ -9,6 +9,7 @@ const Home = ({navigation}: {navigation: NavigationProp<ParamListBase>}) => {
   return (
     <View>
       <Button title="Go it " onPress={() => handler()} />
+      <Button title="Go it " onPress={() => handler()} />
       <Text>home </Text>
     </View>
   );
